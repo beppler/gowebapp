@@ -7,7 +7,7 @@
 _obj
 _test
 
-# Debugger binary
+# vscode debugger binary
 debug
 
 # Architecture specific extensions/prefixes
