@@ -11,6 +11,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	mux := http.NewServeMux()
+	
 	mux.HandleFunc("/", hello)
 
 	if err := http.ListenAndServe("localhost:8000", mux); err != nil {
